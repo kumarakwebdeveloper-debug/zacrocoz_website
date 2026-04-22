@@ -1,0 +1,155 @@
+.zrz-stands.apart {
+  background: url("images/bg-1.webp");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: top right;
+  position: relative;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  background-color: #d4af37cf;
+}
+
+.afw.zrz-two table td a {
+  color: #f00;
+}
+
+.afw.zrz-two p {
+  color: #0a2540;
+}
+
+.c-card .c-card__description {
+  background-color: #0a2540;
+}
+
+.c-card .c-card__description .c-card__tagline {
+  font-size: 1.25rem;
+  line-height: 1.5;
+  color: #cfac37;
+}
+
+.core-values ul {
+  padding-left: 2rem;
+}
+
+.row.inner-pgs-cont .core-values li,
+.core-values li {
+  list-style: disc;
+  color: #fff;
+  font-size: 14px;
+}
+
+.l-cards {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.c-card {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  /* grid-gap: 24px; */
+  margin-top: 20px;
+  width: 100%;
+  height: 90vh;
+  max-height: 560px !important;
+  background-color: transparent !important;
+  border: 0px solid var(--color-dark);
+  border-radius: 10px;
+}
+
+.c-card .c-card__description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 40px;
+  background-color: #f1f1f1;
+}
+
+.row.inner-pgs-cont ul li {
+  font-size: 16px;
+  padding-bottom: 8px;
+}
+
+.c-card .c-card__description .c-card__tagline {
+  font-size: 1.25rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.c-card .c-card__description .c-card__title {
+  font-size: 36px;
+}
+
+.c-card .c-card__description .c-card__excerpt {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.c-card .c-card__description .c-card__cta {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-top: 32px;
+}
+
+.c-card .c-card__description .c-card__cta a {
+  width: max-content;
+  padding: 12px 24px;
+  border: 1px solid black;
+  color: black;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.c-card .c-card__figure {
+  position: relative;
+  overflow: hidden;
+}
+
+.c-card .c-card__figure img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.spacer {
+  width: 100%;
+  height: 100vh;
+}
+
+.c-card .c-card__description {
+  background-color: #0a2540;
+}
+
+.sub-page-banner.relative {
+  background-image: url("images/community-connect.jpeg") !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  /* margin-top: 100px; */
+}
+
+.sub-page-banner::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(10 37 64 / 59%);
+}
+
+.inner-pages-content table {
+  border: 1px solid #c7ccd1;
+}
+.inner-pages-content table td,
+.inner-pages-content table th {
+  color: #c7ccd1;
+}
+.inner-pages-content table td a {
+  color: #f00;
+}

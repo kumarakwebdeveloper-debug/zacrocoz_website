@@ -1,0 +1,150 @@
+.zrz-stands.apart {
+  background: url("../images/bg-1.webp");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: top right;
+  position: relative;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  background-color: #d4af37;
+}
+
+.zrz-two {
+  position: relative;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Main content box */
+.container-fluid.zrz-two.ptb-100 {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.cont h4 {
+  font-size: 24px;
+  line-height: 1.5;
+}
+.rdfg img {
+  min-height: 500px;
+  object-fit: fill;
+}
+/* Phase cards wrapper */
+.container.row.align-items-center.justify-content-center > .col-md-12 {
+  padding: 0 1rem;
+}
+
+/* Each 6‑column block */
+.col-md-6.p-0 {
+  padding: 1.5rem 1rem;
+}
+@media (max-width: 1120px) {
+  .rdfg img {
+      min-height: 400px;
+      object-fit: fill;
+  }
+
+}
+/* Responsive text tuning */
+@media (max-width: 768px) {
+  .col-md-6.p-0 {
+    padding: 1rem 0.5rem;
+  }
+
+  .rotate-continuous {
+    width: 120px;
+    top: 10%;
+  }
+  .sub-page-banner.rdmap.rdm1 {
+    background-position: center 58% !important;
+  }
+  .cont {
+    min-height: 500px !important;
+  }
+  .cont h4 {
+    font-size: 24px;
+    line-height: 1.5;
+  }
+  .container-fluid.zrz-two.ptb-100 {
+    padding-top: 2rem;
+  }
+  .rdfg img {
+    min-height: 340px;
+    object-fit: cover;
+    max-height: 340px;
+    width: 100%;
+  }
+}
+
+.gold.core-values {
+  border-radius: 8px;
+  padding: 1.25rem;
+  border-left: 3px solid #d4af37;
+  margin-top: 1rem;
+}
+
+.gold.core-values ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.gold.core-values ul li {
+  position: relative;
+  font-size: 14px;
+  color: #c7ccd1;
+}
+
+.core-values.mt-3 p {
+  margin: 0.5rem 0 0;
+  font-size: 14px;
+}
+
+.col-md-6.p-0 img {
+  width: 100%;
+  min-height: 600px;
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+/* Spacing tweaks */
+.col-md-6.ps-3 {
+  padding-left: 1.5rem;
+}
+
+.col-md-6.pe-2 {
+  padding-right: 0.75rem;
+}
+
+/* Small spacing helpers (from your HTML) */
+.mt-3 {
+  margin-top: 0.75rem;
+}
+
+.mb-md-3 {
+  margin-bottom: 1.25rem;
+}
+
+.gold.core-values.onesty.one {
+  background: #0f172a;
+}
+
+.gold.core-values.secn {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.inner-pages-content .afw {
+  position: relative;
+  background: #0f172a;
+}
